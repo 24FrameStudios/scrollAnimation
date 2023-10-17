@@ -25,6 +25,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 400px;
   height: 200px;
   margin: 10px;
@@ -43,7 +44,12 @@ h1 {
 }
 
 .box h2 {
-  font-size: 45px;
+  font-size: 35px;
+  margin: 0px;
+}
+
+.box p {
+  padding: 0px 25px;
 }
 
 .box:last-of-type {
